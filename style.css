@@ -1,0 +1,124 @@
+h1 {
+    text-align: center;
+    text-shadow: 4px 4px 5px  rgb(40, 184, 40);
+    color: rgb(81, 6, 156);
+}
+h2 {
+    color: aqua;
+}
+nav {
+    background-color: rgb(238, 25, 25);
+    text-align: center;
+    text-color: white;
+}
+a {
+    text-decoration-line: none;
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    padding: 15px;
+}
+.circle-img {
+    border-radius: 60%;
+    box-shadow: 50px 48px 38px rgb(174, 178, 179);
+    padding: 20px;
+}
+.box {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background: blueviolet;
+    margin: 10px;
+
+}
+.border {
+    border-style:solid;
+    border-color:#287EC7;
+    padding: 20px;
+    margin: 20px;
+}
+.buy {
+    border-style:solid;
+    border-color:#287EC7;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.flex {
+    margin: 30px;
+    border: 3px solid coral;
+    display: flex;
+}
+@keyframes fadeMe {
+    0% { 
+        opacity: 1;
+       }
+    100% {
+        opacity: 0;
+         }
+}
+  
+
+#box1,#box6 {
+    animation-name: fadeMe;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#box3 {
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: 4s;
+    animation-timing-function: ease-in-out;
+    border-radius: 10%;
+    background-image: radial-gradient(circle,purple, yellow, green, pink, red);
+
+}
+@keyframes getBigger{
+    0% {transform: scale(1);}
+    50% {transform: scale(2);}
+    100% {transform: scale(.5);}
+
+}
+#box4 {
+    animation: getBigger infinite 8s linear;
+    border-radius: 50%;
+    background: lightgreen;
+}
+
+
+#box2 {
+    top: 100px;
+    left: 20px;
+    position: relative;
+}
+form input, textarea, button{
+    display: block;
+    margin: 10px;
+}
+
+
+
+    
+  
+
+    
+
+
+    
+
+
+    
+
+
+
+
+
+
+ 
+
+
+    
